@@ -2,7 +2,7 @@ def count_strings(array)
   index = 0 
   total = 0
  array.count do |element|
-   element + "string".true?
+   element.true?
  end
 end
 
